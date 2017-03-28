@@ -1,6 +1,6 @@
 # Author: Lubembe Michael
 
-![alt="photo of michael" width="100" height="100"](ip2/assets/guy.jpg)
+![alt="photo of michael" width="100" height="100"](ip2/assets/guys.jpg)
 
 ## **Anita's Kitchen Website**
 

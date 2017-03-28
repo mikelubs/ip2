@@ -1,12 +1,20 @@
-# Independent Project
+# Author: Lubembe Michael
 
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
+![alt="photo of michael" width="100" height="100"](ip2/assets/guy.jpg)
 
-  2) Clone **your forked repo** to your own machine.`
+## **Anita's Kitchen Website**
 
-  3) Complete the independent project.
+_Anita's Kitchen Website is  . ENJOY!!!_
 
-  4) Push your commits up to your forked repo.
-  
-  5) Send the link pointing to your repo to your Technical mentor via *slack*
+Link to Site:
+
+------------------
+https://mikelubs.github.io/mpft-ip/
+------------------
+
+License   
+------------------
+
+**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
+
+------------------

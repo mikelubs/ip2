@@ -1,8 +1,7 @@
-# Author: Lubembe Michael
+# **Anita's Kitchen Website**
+## Author: Lubembe Michael
 
 ![alt="photo of michael" width="100" height="100"](ip2/assets/guys.jpg)
-
-## **Anita's Kitchen Website**
 
 _Anita's Kitchen Website is  . ENJOY!!!_
 

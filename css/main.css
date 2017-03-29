@@ -40,3 +40,8 @@ FAST FOODS
 .food1 img {
   border: solid 10px white;
 }
+
+.food2 {
+  float: right;
+  margin-top: 30px;
+}

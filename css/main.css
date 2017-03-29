@@ -12,11 +12,31 @@ HEADER
     color: white;
   }
 
-h1 {
+h2 {
   text-align: center;
 }
 
 .logo img {
   display: block;
   margin: auto;
+}
+
+/***********************************
+
+NAV
+
+************************************/
+
+/***********************************
+
+NAV
+
+************************************/
+.food1 {
+  float: left;
+  margin-top: 30px;
+}
+
+.food1 img {
+  border: solid 10px white;
 }

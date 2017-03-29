@@ -60,6 +60,21 @@ FOODS
     color: white;
   }
 
+
+  /***********************************
+
+  CUSTOMERS
+
+  ************************************/
+  .customers {
+      margin-bottom: 0px;
+      background-color: #fff;
+      background-size: cover;
+      height: 380px;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
   /***********************************
 
   SUBSCRIBE

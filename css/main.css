@@ -59,3 +59,17 @@ FOODS
     background-repeat: no-repeat;
     color: white;
   }
+
+  /***********************************
+
+  SUBSCRIBE
+
+  ************************************/
+  .subscribe {
+      margin-bottom: 0px;
+      background-image: url(../img/backgrounds/subscribe.jpg);
+      background-size: cover;
+      height: 280px;
+      background-repeat: no-repeat;
+      color: white;
+    }

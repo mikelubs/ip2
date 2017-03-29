@@ -29,6 +29,19 @@ NAV
 
 /***********************************
 
+FOODTOP
+
+************************************/
+.foodsBg {
+    margin-bottom: 0px;
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+/***********************************
+
 FAST FOODS
 
 ************************************/

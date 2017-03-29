@@ -1,0 +1,17 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/backgrounds/landing.jpg);
+    background-size: cover;
+    height: 675px;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+h1 {
+  text-align: center;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}

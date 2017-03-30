@@ -82,9 +82,19 @@ background: url('../img/foodtop/dinner.jpg') no-repeat;
 FAST FOODS
 
 ************************************/
+.food1 {
+  float: left;
+  margin-bottom: 70px;
+}
+
+.food2 {
+  float: right;
+}
+
 .food2 img {
   float: left;
 }
+
 
 /***********************************
 

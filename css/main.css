@@ -84,16 +84,25 @@ FAST FOODS
 ************************************/
 .food1 {
   float: left;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
+  max-width: 50%;
+  border: solid 10px #fff;
 }
 
-.food2 {
-  float: right;
-}
 
 .food2 img {
   float: left;
+  max-width: 50%;
 }
+
+
+.food2 {
+  float: right;
+  max-width: 50%;
+  margin-bottom: 120px;
+  border: solid 10px #fff;
+}
+
 
 
 /***********************************

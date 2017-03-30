@@ -72,10 +72,6 @@ background: url('../img/foodtop/dinner.jpg') no-repeat;
  height: 300px;
 }
 
-.row-no-padding {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
 
 /***********************************
 
@@ -84,9 +80,16 @@ FAST FOODS
 ************************************/
 .food1 {
   float: left;
-  margin-bottom: 120px;
+  margin-top: 5px;
+  margin-bottom: 80px;
   max-width: 50%;
-  border: solid 10px #fff;
+  border: 10px solid #fff;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background: #FFF;
+
 }
 
 
@@ -101,6 +104,11 @@ FAST FOODS
   max-width: 50%;
   margin-bottom: 120px;
   border: solid 10px #fff;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background: #FFF;
 }
 
 

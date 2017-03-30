@@ -136,11 +136,16 @@ FOODS
     FOOTER
 
     ************************************/
-    .footer {
-        margin-bottom: 0px;
-        background-color: #F15A29;
-        background-size: cover;
-        height: 300px;
-        background-repeat: no-repeat;
-        color: white;
-      }
+  .footer {
+      margin-bottom: 0px;
+      background-color: #F15A29;
+      background-size: cover;
+      height: 300px;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+  .footer-logo img {
+    display: inline;
+    margin: auto;
+  }

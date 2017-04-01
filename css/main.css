@@ -31,6 +31,7 @@ NAV
 
 ************************************/
 
+
 /***********************************
 
 FOODTOP
@@ -42,7 +43,7 @@ FOODTOP
    -moz-background-size: 100% auto;
    -o-background-size: 100% auto;
     background-size: 100% auto;
-    height: 300px;
+    height: 200px;
 }
 
 .second-col {
@@ -51,7 +52,7 @@ background: url('../img/foodtop/breakfast.jpg') no-repeat;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto;
- height: 300px;
+ height: 200px;
 }
 
 .third-col {
@@ -60,7 +61,7 @@ background: url('../img/foodtop/lunch.jpg') no-repeat;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto;
- height: 300px;
+ height: 200px;
 }
 
 .fourth-col {
@@ -69,7 +70,36 @@ background: url('../img/foodtop/dinner.jpg') no-repeat;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto;
- height: 300px;
+ height: 200px;
+}
+
+.ex {
+  width: 100%!important;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.exx {
+  margin: 0;
+  padding: 0;
+}
+
+
+.ex h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.happy {
+  background-color: lightgrey;
+  height: 50%;
+  margin: 0;
+}
+
+.party {
+  background-color: #F15A29;
+  height: 50%;
+  margin: 0;
 }
 
 
@@ -80,7 +110,6 @@ FAST FOODS
 ************************************/
 .food1 {
   float: left;
-  margin-top: 5px;
   margin-bottom: 80px;
   margin-right: 100px;
   max-width: 50%;
@@ -90,6 +119,11 @@ FAST FOODS
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   padding: 10px;
   background: #FFF;
+
+}
+
+.food1-1 {
+  margin-top: 120px!important;
 
 }
 
@@ -166,6 +200,11 @@ FOODS
       height: 280px;
       background-repeat: no-repeat;
       color: white;
+    }
+
+    .mm {
+      margin-left: 50px;
+      word-break: keep-all;
     }
 
 select.frecuency:focus {

@@ -18,6 +18,8 @@ HEADER
 
 .jumbotron h2 {
   text-align: center;
+  font-size: 40px;
+  font-family: 'Slabo 27px', sans-serif;
 }
 
 .logo img {
@@ -183,10 +185,55 @@ FOODS
       margin-bottom: 0px;
       background-color: #fff;
       background-size: cover;
-      height: 380px;
+      height: 400px;
       background-repeat: no-repeat;
       color: white;
     }
+
+  .cust {
+    margin-top: 60px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cust h4, p {
+    color: #000;
+  }
+
+  .cust h3 {
+    color: #F15A29;
+  }
+
+  .lft {
+    float: left;
+    margin-right: px;
+    padding: 30px;
+    min-width: 60%;
+    letter-spacing: 1px;
+    display: table-cell;
+  }
+
+  .lft img {
+    margin: 10px;
+  }
+
+.arrow {
+  color: #F15A29;
+  font-size: 20px;
+}
+
+  .rgt {
+    padding: 30px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    display: table-cell;
+    margin-left: ;
+    text-align: center;
+  }
 
   /***********************************
 

@@ -20,6 +20,8 @@ HEADER
   text-align: center;
   font-size: 40px;
   font-family: 'Slabo 27px', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 10;
 }
 
 .logo img {
@@ -107,7 +109,7 @@ transition: opacity .2s ease-out;
   width: 100%!important;
   margin: 0 auto;
   padding: 0;
-  padding-left: 
+  padding-left:
 }
 
 .exx {
@@ -329,7 +331,7 @@ button.btn {
       margin-bottom: 0px;
       background-color: #F15A29;
       background-size: cover;
-      height: 300px;
+      height: auto;
       background-repeat: no-repeat;
       color: white;
     }
@@ -337,4 +339,15 @@ button.btn {
   .footer-logo img {
     display: inline;
     margin: auto;
+  }
+
+  .logo1 {
+    text-align: center;
+    padding-top:80px;
+    display: inline;
+
+  }
+
+  .footer-logo h3 {
+    text-align: center;
   }

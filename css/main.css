@@ -45,7 +45,8 @@ FOODTOP
    -moz-background-size: 100% auto;
    -o-background-size: 100% auto;
     background-size: 100% auto;
-    height: 200px;
+    height: 184px;
+    padding: 60px;
 }
 
 .second-col {
@@ -54,7 +55,16 @@ background: url('../img/foodtop/breakfast.jpg') no-repeat;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto;
- height: 200px;
+ height: 184px;
+ padding: 60px;
+}
+
+.second-col:hover {
+  opacity: 0.5;
+transition: opacity .2s ease-out;
+-moz-transition: opacity .2s ease-out;
+-webkit-transition: opacity .2s ease-out;
+-o-transition: opacity .2s ease-out;
 }
 
 .third-col {
@@ -63,7 +73,16 @@ background: url('../img/foodtop/lunch.jpg') no-repeat;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto;
- height: 200px;
+ height: 184px;
+ padding: 60px;
+}
+
+.third-col:hover {
+  opacity: 0.5;
+transition: opacity .2s ease-out;
+-moz-transition: opacity .2s ease-out;
+-webkit-transition: opacity .2s ease-out;
+-o-transition: opacity .2s ease-out;
 }
 
 .fourth-col {
@@ -72,7 +91,16 @@ background: url('../img/foodtop/dinner.jpg') no-repeat;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto;
- height: 200px;
+ height: 184px;
+ padding: 60px;
+}
+
+.fourth-col:hover {
+  opacity: 0.5;
+transition: opacity .2s ease-out;
+-moz-transition: opacity .2s ease-out;
+-webkit-transition: opacity .2s ease-out;
+-o-transition: opacity .2s ease-out;
 }
 
 .ex {
@@ -96,12 +124,14 @@ background: url('../img/foodtop/dinner.jpg') no-repeat;
   background-color: lightgrey;
   height: 50%;
   margin: 0;
+  padding: 30px;
 }
 
 .party {
   background-color: #F15A29;
   height: 50%;
   margin: 0;
+  padding: 30px;
 }
 
 
@@ -132,7 +162,6 @@ FAST FOODS
 
 .food2 img {
   float: left;
-  max-width: 50%;
 }
 
 
@@ -185,7 +214,7 @@ FOODS
       margin-bottom: 0px;
       background-color: #fff;
       background-size: cover;
-      height: 400px;
+      height: auto;
       background-repeat: no-repeat;
       color: white;
     }
@@ -197,7 +226,9 @@ FOODS
     -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     padding: 10px;
+    height: 100%;
     text-align: center;
+    overflow: hidden;
   }
 
   .cust h4, p {
@@ -215,10 +246,11 @@ FOODS
     min-width: 60%;
     letter-spacing: 1px;
     display: table-cell;
+    overflow: hidden;
   }
 
   .lft img {
-    margin: 10px;
+    margin: 2px;
   }
 
 .arrow {
@@ -231,8 +263,9 @@ FOODS
     line-height: 24px;
     letter-spacing: 1px;
     display: table-cell;
-    margin-left: ;
+    max-width: 100%;
     text-align: center;
+    overflow: hidden;
   }
 
   /***********************************
@@ -241,6 +274,7 @@ FOODS
 
   ************************************/
   .subscribe {
+    margin-top: 20px;
       margin-bottom: 0px;
       background-image: url(../img/backgrounds/subscribe.jpg);
       background-size: cover;

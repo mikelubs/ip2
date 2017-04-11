@@ -42,10 +42,11 @@ HEADER
 NAV
 
 ************************************/
-.menu {
+.menu ul {
   background: #F15A29;
   line-height: 72px;
   margin: 0;
+  display: none;
 }
 
 .menu li {
@@ -59,6 +60,10 @@ NAV
 
 .container-fluid {
   margin: 0;
+}
+
+.menu {
+  display: inline;
 }
 
 /***********************************

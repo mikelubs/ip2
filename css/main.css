@@ -155,7 +155,7 @@ FAST FOODS
 
 .food1 {
   margin-bottom: 80px;
-  border: 10px solid #fff;
+  border: 20px solid #fff;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -179,11 +179,12 @@ FAST FOODS
 
 .food2-2 {
   margin-bottom: 80px;
-  border: 10px solid #fff;
+  border: 20px solid #fff;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   background: #FFF;
+  padding: 0;
 }
 
 

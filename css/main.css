@@ -53,9 +53,10 @@ NAV
   list-style: none;
   color: #000;
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-right: 150px;
   font-size: 20px;
+  text-align: left;
 }
 
 .container-fluid {
@@ -64,6 +65,7 @@ NAV
 
 .menu {
   display: inline;
+  width: 100%;
 }
 
 /***********************************

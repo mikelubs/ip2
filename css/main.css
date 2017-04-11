@@ -7,7 +7,18 @@
 HEADER
 
 ************************************/
-.jumbotron {
+.topp {
+  margin: 0!important;
+  background: #F15A29;
+  margin-bottom: 0px;
+  background-size: cover;
+  min-height: 675px;
+  background-repeat: no-repeat;
+  color: white;
+  max-width: 100%;
+}
+
+.first1 {
     margin-bottom: 0px;
     background-image: url(../img/backgrounds/landing.jpg);
     background-size: cover;
@@ -42,17 +53,18 @@ HEADER
 NAV
 
 ************************************/
+.topp{
+  display: none;
+}
+
 .menu ul {
-  background: #F15A29;
   line-height: 72px;
   margin: 0;
-  display: none;
 }
 
 .menu li {
   list-style: none;
   color: #000;
-  display: inline-block;
   margin-left: 100px;
   margin-right: 150px;
   font-size: 20px;
@@ -69,7 +81,6 @@ NAV
 }
 .menu {
   display: inline;
-  width: 100%;
 }
 
 /***********************************

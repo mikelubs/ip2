@@ -143,18 +143,21 @@ transition: opacity .2s ease-out;
 FAST FOODS
 
 ************************************/
+.text2 {
+  text-align: right;
+}
+
 .food1 {
-  float: left;
   margin-bottom: 80px;
-  margin-right: 100px;
-  max-width: 50%;
   border: 10px solid #fff;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  padding: 10px;
   background: #FFF;
+}
 
+.food1 img {
+  min-width: 100%;
 }
 
 .food1-1 {
@@ -163,21 +166,17 @@ FAST FOODS
 }
 
 
-.food2 img {
-  float: left;
+.food2-2 img {
+  min-width: 100%;
 }
 
 
-.food2 {
-  float: right;
-  max-width: 50%;
-  margin-bottom: 120px;
-  margin-left: 100px;
-  border: solid 10px #fff;
+.food2-2 {
+  margin-bottom: 80px;
+  border: 10px solid #fff;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  padding: 10px;
   background: #FFF;
 }
 
@@ -188,6 +187,15 @@ p {
   line-height: 24px;
 }
 
+.drink1 {
+  margin: 0;
+  padding: 0;
+}
+
+.drink2 {
+  margin: 0;
+  padding: 0;
+}
 
 
 /***********************************

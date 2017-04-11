@@ -27,22 +27,39 @@ HEADER
   margin-top: 40px;
 }
 
-.fa-bars {
-font-weight: 10;
-}
-
 .logo img {
   display: block;
   margin: auto;
+  margin-top: 40px;
 }
 
+.menu2 {
+  display: none;
+}
 
 /***********************************
 
 NAV
 
 ************************************/
+.menu {
+  background: #F15A29;
+  line-height: 72px;
+  margin: 0;
+}
 
+.menu li {
+  list-style: none;
+  color: #000;
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 20px;
+}
+
+.container-fluid {
+  margin: 0;
+}
 
 /***********************************
 

@@ -11,9 +11,10 @@ HEADER
     margin-bottom: 0px;
     background-image: url(../img/backgrounds/landing.jpg);
     background-size: cover;
-    height: 675px;
+    height: auto;
     background-repeat: no-repeat;
     color: white;
+    max-width: 100%;
   }
 
 .jumbotron h2 {
@@ -22,6 +23,12 @@ HEADER
   font-family: 'Slabo 27px', sans-serif;
   letter-spacing: 1px;
   font-weight: 10;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.fa-bars {
+font-weight: 10;
 }
 
 .logo img {
@@ -260,7 +267,7 @@ FOODS
   .lft {
     float: left;
     margin-right: px;
-    padding: 30px;
+    padding: 0;
     min-width: 60%;
     letter-spacing: 1px;
     display: table-cell;
@@ -277,13 +284,16 @@ FOODS
 }
 
   .rgt {
-    padding: 30px;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 20px;
     line-height: 24px;
     letter-spacing: 1px;
     display: table-cell;
-    max-width: 100%;
+    min-width: 40%;
     text-align: center;
     overflow: hidden;
+    border-left: solid 1px lightgrey;
   }
 
   /***********************************
@@ -291,51 +301,19 @@ FOODS
   SUBSCRIBE
 
   ************************************/
+
+
+
   .subscribe {
     margin-top: 20px;
       margin-bottom: 0px;
       background-image: url(../img/backgrounds/subscribe.jpg);
       background-size: cover;
-      height: 280px;
+      height: auto;
       background-repeat: no-repeat;
       color: white;
     }
 
-    .mm {
-      margin-left: 50px;
-      word-break: keep-all;
-    }
-
-select.frecuency:focus {
-    outline: none;
-    border-bottom: 5px solid #22313F;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-    -webkit-transition: -webkit-transform .35s ease-in;
-    transition: -webkit-transform .35s ease-in;
-}
-.free {
-    text-transform: uppercase;
-}
-.input-group {
-    margin: 20px 20px;
-    width: 100%;
-}
-input.btn.btn-lg {
-    width: 60%;
-    height: 60px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-button.btn {
-    width: 40%;
-    height: 60px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.promise {
-    color: transparent!important;
-}
 
     /***********************************
 

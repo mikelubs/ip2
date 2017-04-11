@@ -58,7 +58,7 @@ NAV
 }
 
 .menu ul {
-  line-height: 96px;
+  line-height: 120px;
   margin: 0;
 }
 
@@ -67,8 +67,17 @@ NAV
   color: #000;
   margin-left: 100px;
   margin-right: 150px;
-  font-size: 30px;
+  margin: 20px 150px 20px 100px;
+  font-size: 20px;
   text-align: left;
+}
+
+.menu li:hover {
+  color: rgb(51, 102, 0);
+}
+
+.menu ul a {
+  text-decoration: none;
 }
 
 .container-fluid {
@@ -78,7 +87,17 @@ NAV
 .menu1 , .menu2 {
   margin-left: 70px;
   margin-top: 50px;
+  padding: 6px;
 }
+
+.menu1:hover{
+  background: rgb(102, 0, 51);
+}
+
+.menu2:hover{
+  background: rgb(102, 0, 51);
+}
+
 .menu {
   display: inline;
 }

@@ -63,6 +63,10 @@ NAV
   margin: 0;
 }
 
+.menu1 , .menu2 {
+  margin-left: 70px;
+  margin-top: 50px;
+}
 .menu {
   display: inline;
   width: 100%;

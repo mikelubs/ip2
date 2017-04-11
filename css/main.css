@@ -58,7 +58,7 @@ NAV
 }
 
 .menu ul {
-  line-height: 72px;
+  line-height: 96px;
   margin: 0;
 }
 
@@ -67,7 +67,7 @@ NAV
   color: #000;
   margin-left: 100px;
   margin-right: 150px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
 }
 

@@ -220,6 +220,7 @@ FOODS
 ************************************/
 .foodsBg {
     margin-bottom: 0px;
+    margin-top: 40px;
     background-image: url(../img/backgrounds/foodsBg.jpg);
     background-size: cover;
     height: 600px;

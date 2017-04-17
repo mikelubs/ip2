@@ -426,7 +426,7 @@ FOODS
   font-size: 14px;
   width: 350px;
   height: 55px;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 .subscribe-form input.button {
   background: #F15A29;
@@ -469,8 +469,15 @@ FOODS
   color: #fff;
 }
 
+.mail-1 {
+  width: 350px;
+  margin-right: 20px;
+  margin-left: 260px;
+}
 
-
+.default {
+  width: 250px;
+}
 
     /***********************************
 

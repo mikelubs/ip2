@@ -521,7 +521,7 @@ FOODS
 
 .footer-logo img {
   display: inline;
-  margin: auto;
+  margin: 2px;
 }
 
 .logo2 {
@@ -532,14 +532,24 @@ FOODS
   margin: 10px;
 }
 
-.logo1 {
-  text-align: center;
-  padding-top:80px;
-  display: inline;
+.row-b {
+  margin-top: 30px;
 }
 
+.row-c {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.row-c p {
+  color: #fff;
+}
+
+.logo1 {
+  padding-right: 25px;
+}
 .logo1 img {
-  margin: 18px;
+  margin: 0 20px 0 4px;
 }
 
 .footer-logo h3 {
@@ -549,28 +559,53 @@ FOODS
 
 .footer-logo p {
   color: #fff;
-  margin: 50px;
+  margin-top: 3px;
 }
 
 .footer-p {
   font-weight: bold;
   font-size: 20px;
+  padding-top: 20px;
 }
 
 .logo1 h2 {
   font-family: 'Rokkitt', serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
   padding-top: 2px;
-}
-
-.fa-facebook {
-  position: relative;
-  color: #000;
-  z-index: 1;
-  left: ;
 }
 
 .logo2 img {
   z-index: 1;
+}
+
+.footer-logo {
+  margin-top: 40px;
+}
+
+.fa-facebook {
+  color: #F15A29;
+  padding: 20px;
+  background-image: url(../img/footerlogos/facebook.png);
+  font-size: 1em;
+  background-size: cover;
+  margin: 0;
+}
+
+.fa-twitter {
+  color: #F15A29;
+  padding: 20px;
+  background-image: url(../img/footerlogos/facebook.png);
+  font-size: 1em;
+  background-size: cover;
+  margin: 0;
+}
+
+.fa-pinterest {
+  color: #F15A29;
+  padding: 20px;
+  background-image: url(../img/footerlogos/facebook.png);
+  font-size: 1em;
+  background-size: cover;
+  margin: 0;
 }

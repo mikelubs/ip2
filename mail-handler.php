@@ -3,7 +3,7 @@
 $api_key = 'd81475bc74b7e8f86912080a0bfe91b6-us15';
 $datacenter = 'us15';
 $list_id = '18b841a621';
-$email = $_POST['email'];
+$email = $_POST['subscribe-email'];
 $status = 'pending';
 if(!empty($_POST['status'])){
     $status = $_POST['status'];

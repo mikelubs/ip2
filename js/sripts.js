@@ -19,7 +19,7 @@ $(document).ready(function() {
        e.preventDefault();
 
        //grab attributes and values out of the form
-       var data = {email: $('#mc-email').val()};
+       var data = {email: $('#subscribe-email').val()};
        var endpoint = $(this).attr('action');
 
        //make the ajax request

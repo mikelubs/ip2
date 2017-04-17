@@ -9,7 +9,7 @@ $(document).ready(function() {
        $(".clickable2").click(function() {
          $(".menu2").toggle();
          $(".menu1").toggle();
-         $(".topp").slideUp();
+         $(".topp").fadeOut();
          $(".largest").slideDown();
        });
 

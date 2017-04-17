@@ -18,6 +18,12 @@ HEADER
   max-width: 100%;
 }
 
+.main-menu li {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .first1 {
     margin-bottom: 0px;
     background-image: url(../img/backgrounds/landing.jpg);
@@ -72,7 +78,7 @@ NAV
 }
 
 .menu li:hover {
-  color: rgb(51, 102, 0);
+  color: #fff;
 }
 
 .menu ul a {
@@ -84,7 +90,7 @@ NAV
 }
 
 .menu1 , .menu2 {
-  margin-left: 70px;
+  margin-left: 40px;
   margin-top: 50px;
   padding: 6px;
   position: static;
@@ -529,7 +535,8 @@ FOODS
 }
 
 .logo2 a {
-  margin: 10px;
+  margin: 15px;
+  text-decoration: none;
 }
 
 .row-b {
@@ -575,27 +582,24 @@ FOODS
   padding-top: 2px;
 }
 
-.logo2 img {
-  z-index: 1;
-}
-
 .footer-logo {
   margin-top: 40px;
 }
 
 .fa-facebook {
   color: #F15A29;
-  padding: 20px;
+  padding: 10px;
   background-image: url(../img/footerlogos/facebook.png);
   font-size: 1em;
   background-size: cover;
   margin: 0;
+  width: auto;
 }
 
 .fa-twitter {
   color: #F15A29;
-  padding: 20px;
-  background-image: url(../img/footerlogos/facebook.png);
+  padding: 10px;
+  background-image: url(../img/footerlogos/twitter.png);
   font-size: 1em;
   background-size: cover;
   margin: 0;
@@ -603,8 +607,8 @@ FOODS
 
 .fa-pinterest {
   color: #F15A29;
-  padding: 20px;
-  background-image: url(../img/footerlogos/facebook.png);
+  padding: 10px;
+  background-image: url(../img/footerlogos/pinterest.png);
   font-size: 1em;
   background-size: cover;
   margin: 0;

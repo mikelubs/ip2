@@ -87,7 +87,7 @@ NAV
   margin-left: 70px;
   margin-top: 50px;
   padding: 6px;
-  position: fixed;
+  position: static;
 }
 
 .menu1:hover{
@@ -96,6 +96,10 @@ NAV
 
 .menu2:hover{
   background: rgb(102, 0, 51);
+}
+
+.menu1 {
+ background: rgb(115, 115, 115);
 }
 
 .menu {
@@ -362,17 +366,84 @@ FOODS
 
   ************************************/
 
+.subscribe {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-image: url(../img/backgrounds/subscribe.jpg);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 30px;
+  }
 
+.subscribe h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
 
-  .subscribe {
+.subscribe-form {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.subscribe-form input.email {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  width: 350px;
+  height: 55px;
+  margin-right: 5px;
+}
+.subscribe-form input.button {
+  background: #F15A29;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  outline: 0;
+  border: 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 250px;
+  height: 55px;
+}
+.subscribe-form .button-holder {
+  text-align: left;
+}
+@media screen and (max-width: 992px) {
+  .subscribe-form .button-holder {
     margin-top: 20px;
-      margin-bottom: 0px;
-      background-image: url(../img/backgrounds/subscribe.jpg);
-      background-size: cover;
-      height: auto;
-      background-repeat: no-repeat;
-      color: white;
-    }
+    text-align: center;
+  }
+}
+.subscribe-form p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.subscribe-form ::-webkit-input-placeholder {
+  color: #fff;
+}
+.subscribe-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+.subscribe-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+.subscribe-form :-ms-input-placeholder {
+  color: #fff;
+}
+
+
 
 
     /***********************************

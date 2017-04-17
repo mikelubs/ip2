@@ -2,7 +2,7 @@ $(document).ready(function() {
        $(".clickable1").click(function() {
          $(".menu1").toggle();
          $(".menu2").toggle();
-         $(".topp").slideDown();
+         $(".topp").fadeIn();
          $(".largest").slideUp();
        });
 

@@ -28,9 +28,11 @@
         <div class="col-lg-12">
             <div class="menu">
             <ul class="main-menu">
-              <div class="clickable2">
-                <img src="img/close.png" class="menu2">
-              </div>
+                <a href="#">
+                  <div class="clickable2">
+                    <img src="img/close.png" class="menu2">
+                  </div>
+                </a>
               <a href="#"><li class="list">Contacts</li></a>
               <a href="#"><li class="list">Events</li></a>
               <a href="#"><li class="list">Menu</li></a>
@@ -49,7 +51,6 @@
           <div class="clickable1">
             <img src="img/menu.png" class="menu1">
           </div>
-
         </a>
           <div class="logo">
             <img  src="img/logoBig.png" class="img-responsive text-center" />
@@ -176,9 +177,16 @@
     <div class="subscribe">
       <div class="container">
         <h2><strong>Get our daily food items delivered to your mail</strong></h2>
-      	<div class="row">
-
-      	</div>
+          <form action="#" method="get" class="subscribe-form">
+            <div class="row">
+                <fieldset class="col-md-offset-2 col-md-6">
+                    <input name="subscribe-email" type="email" class="email" id="subscribe-email" placeholder="Your email">
+                </fieldset>
+                <fieldset class="col-md-4 button-holder">
+                    <input name="submit" type="submit" class="button default" id="submit" value="Subscribe">
+                </fieldset>
+            </div>
+          </form>
       </div>
     </div>
 

@@ -28,7 +28,7 @@ $(document).ready(function() {
          dataType: "json",
          url: endpoint,
          data: data
-       }).success(function(data){
+       }).then(function(data){
          if(data.id){
            //successful adds will have an id attribute on the object
            alert('thanks you for subscribing');

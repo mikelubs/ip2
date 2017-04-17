@@ -10,7 +10,7 @@ $(document).ready(function() {
          $(".menu2").toggle();
          $(".menu1").toggle();
          $(".topp").fadeOut();
-         $(".largest").slideDown();
+         $(".largest").fadeIn();
        });
 
      });

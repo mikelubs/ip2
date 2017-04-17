@@ -292,11 +292,32 @@ FOODS
   margin-top: 100px;
   margin-bottom: 100px;
   background: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .tab-content {
   background: #fff;
+  margin-top: 0px;
+}
+
+.nav-tabs {
   margin-top: 15px;
+}
+
+.tab-content img {
+  width: 100%;
+}
+
+.cols {
+  padding: 30px;
+}
+
+.cols p {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #F15A29;
 }
 
   /***********************************

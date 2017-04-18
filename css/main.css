@@ -267,7 +267,7 @@ FAST FOODS
 
 .food2-2 {
   margin-bottom: 80px;
-  margin-top: 50px;
+  margin-top: 20px;
   border: 20px solid #fff;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -335,8 +335,7 @@ FOODS
   margin-top: 100px;
   margin-bottom: 100px;
   background: #fff;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0;
 }
 
 .tab-content {
@@ -345,7 +344,7 @@ FOODS
 }
 
 .nav-tabs {
-  margin-top: 15px;
+
 }
 
 .tab-content img {
@@ -361,6 +360,23 @@ FOODS
   padding: 20px;
   font-weight: bold;
   color: #F15A29;
+}
+
+.nav-tabs {
+  background: lightgrey;
+  font-family: 'Sorts Mill Goudy', serif;
+  padding: 0px;
+
+
+}
+
+.nav-tabs li a {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.7em;
+  text-align: center;
+  padding: 15px 30px;
 }
 
   /***********************************
@@ -507,6 +523,10 @@ FOODS
 
 .default {
   width: 250px;
+}
+
+.subscribe-form input.button:hover {
+  background: rgb(0, 153, 51);
 }
 
 .get {

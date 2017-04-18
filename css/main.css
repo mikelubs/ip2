@@ -295,6 +295,25 @@ p {
   padding: 0;
 }
 
+.gall {
+  padding: 15px;
+  border: 1px solid #F15A29;
+  margin-right: 0;
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.gall:hover {
+  background: #F15A29;
+  color: #fff;
+}
+
+.glyphicon-arrow-right {
+  margin-left: 10px;
+  color: #F15A29;
+}
 
 /***********************************
 
@@ -363,7 +382,7 @@ FOODS
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 15px rgba(0,0,0,0.2);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    padding: 10px 10px 30px 10px;
+    padding: 20px 10px 30px 10px;
     height: 100%;
     text-align: center;
     overflow: hidden;

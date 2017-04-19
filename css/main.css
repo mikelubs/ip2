@@ -367,7 +367,6 @@ FOODS
   font-family: 'Sorts Mill Goudy', serif;
   padding: 0px;
 
-
 }
 
 .nav-tabs li a {
@@ -376,7 +375,9 @@ FOODS
   letter-spacing: 1px;
   font-size: 1.7em;
   text-align: center;
-  padding: 15px 30px;
+  padding: 15px 102.75px;
+  width: 100%;
+  border-right: solid grey 1px;
 }
 
   /***********************************

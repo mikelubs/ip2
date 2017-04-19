@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+.body {
+  width: 100%;
+}
 /***********************************
 
 HEADER
@@ -375,7 +379,7 @@ FOODS
   letter-spacing: 1px;
   font-size: 1.7em;
   text-align: center;
-  padding: 15px 102.75px;
+  padding: 15px 102.765px;
   width: 100%;
   border-right: solid grey 1px;
 }

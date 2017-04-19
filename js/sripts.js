@@ -13,4 +13,9 @@ $(document).ready(function() {
          $(".largest").fadeIn();
        });
 
+       $(".gall").hover(function(){
+         $(".glyphicon-arrow-right").css({ 'color': 'white'});
+
+       });
+
      });

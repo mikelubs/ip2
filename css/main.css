@@ -616,26 +616,26 @@ FOODS
   color: #F15A29;
   padding: 10px;
   background-image: url(../img/footerlogos/facebook.png);
-  font-size: 1em;
+  width: 34px;
   background-size: cover;
   margin: 0;
-  width: auto;
+
 }
 
 .fa-twitter {
   color: #F15A29;
   padding: 10px;
   background-image: url(../img/footerlogos/twitter.png);
-  font-size: 1em;
   background-size: cover;
   margin: 0;
+  width: 34px;
 }
 
 .fa-pinterest {
   color: #F15A29;
   padding: 10px;
   background-image: url(../img/footerlogos/pinterest.png);
-  font-size: 1em;
+  width: 34px;
   background-size: cover;
   margin: 0;
 }
